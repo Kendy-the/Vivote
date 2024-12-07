@@ -1,0 +1,56 @@
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header{
+    background-color: rgb(2, 2, 65);
+    color: aliceblue;
+}
+.primary-text{
+    color: rgb(2, 2, 65);
+}
+.primary-color{
+    background-color: rgb(2, 2, 65);
+    color: aliceblue;
+}
+.sub-btn:hover{
+    background-color: rgb(3, 3, 27);
+    color: white;
+}
+.secondary-color{
+    background-color: rgb(47, 47, 61);
+    color: aliceblue;
+}
+.bg-gris{
+    background-color: rgb(216, 211, 211);
+}
+.login-form{
+    width: 50%;
+}
+.italic{
+    font-style: italic;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.marge{
+    padding: 200px;
+}
+.textarea-width{
+    width: 100%;
+    height: 150px;
+}
+.input-width{
+    width: 100%;
+}
+.img-width{
+    width: 100px;
+}
+@media screen and (max-width: 768px){
+    .login-form{
+        width: 80%;
+    }
+}
+
